@@ -1,3 +1,4 @@
+/*Global*/
 html{
   box-sizing: border-box;
   height: 100%;
@@ -5,80 +6,73 @@ html{
 *,*:before,*:after{
   box-sizing: inherit;
 }
+
 body{
-  
+  background: #f6f6f6 ;
   height: 100%;
   margin: 0;/*fits boxes and images to the edges of the page*/
   margin-top: -25px;
-  background-repeat: no-repeat;
-  background: url(/css/1.1.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+
 }
-
-
-p{
-    font-style: normal;
-    color: white;
-    font-size: 20PX;
+.content {
+  margin: 0 auto;
+  max-width: 900px;/*pulls content into the middle of the page*/
+  padding: 40px;/*gives cool space between elemnets*/
+  margin-top: 80px;
 }
 .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-evenly;
-  }
+  background-image: url(/css/1.1.jpg);
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /*navbar link decoration*/
-  .navbar a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 40px;
-  }
-  
-  .content {
-    margin-top: 40px;
-    padding: 20px;
-    max-width: 900px;
-  }
-h2 {
-    color: #80808e;
-    font-size: 50PX;
-
-}
-li{margin-right: 50px;}
-
-.grid-container {
-    display: grid;
-    grid-template-columns:repeat(4 ,1fr);
-    gap: 10px; 
-}
-
-.grid-item img {
-    max-width: 100%;
-max-height: 100%;}
-  
-* {
-  box-sizing: border-box;
-}
-
-
-/* mouse over link */
-
-a:hover, a:active {
-  background-color: darkslategrey;
-  color: white;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: underline;
-  display: inline-block;
+.navbar a {
+  color: #fff;
+  text-decoration: none;
   
 }
 
-/*chnage links to a suitable colur and look for a nicer colour for the navbar buttons*/
+a{
+ color:black ;
+ text-decoration: none;
+}
+a:hover{
+  color: gray ;
+}
+
+/*index*/
+/*Home*/
+/*Tournament*/
+/*clans*/
+/*about us*/
+
+/*Theme*/
+/*.light-theme {
+  background-color: var(--light-background);
+  color: var(--light-text);
+}
+{this is for when you make the themes i want to understand how it works before actually using it}
+.dark-theme {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+assoiciated html incase you forget
+<body class="light-theme">
+    <!-- Your content here -->
+</body>
+and the java mainly because of this guy why am reluctant
+ // Switch to dark theme
+document.body.className = "dark-theme";
+
+// Switch to light theme
+document.body.className = "light-theme";
+
+*/
