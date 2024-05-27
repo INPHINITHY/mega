@@ -18,7 +18,7 @@ body{
   margin: 0 auto;
   max-width: 900px;/*pulls content into the middle of the page*/
   padding: 40px;/*gives cool space between elemnets*/
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .navbar {
   background-image: url(/css/1.1.jpg);
