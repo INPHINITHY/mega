@@ -21,7 +21,7 @@ body{
   margin-top: 50px;
 }
 .navbar {
-  background-image: url(1.1.jpg);
+  background-image: url(../1.1.jpg);
   color: #fff;
   padding: 10px;
   position: fixed;
